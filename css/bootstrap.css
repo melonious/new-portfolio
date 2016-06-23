@@ -12,9 +12,9 @@
   margin-top: 8%;
 }
 
-#profPic {
-  width: 50%;
-  height: 50%;
+#melin {
+  width: 250px;
+  height: 229px;
 }
 
 .sect {
@@ -29,6 +29,10 @@
 
 #aboutMe {
   margin-top: 20px;
+}
+
+.glyphicon {
+  font-size: 50px;
 }
 
 .subSection {
@@ -59,7 +63,7 @@
   width: auto;
   height: 100px;
   text-align: center;
-  line-height: 100px;
+  line-height: 80px;
   background-color: #fff;
   border: 8px solid #666;
   -webkit-border-radius: 30px;
