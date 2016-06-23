@@ -4,12 +4,27 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+p, div {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 #welcome {
   height: 500px;
 }
 
 #welcomeText {
   padding-top: 10%;
+  font-family: 'Amatica SC', cursive;
+}
+
+.bigText1 {
+  font-size: 4em;
+  padding-left: 1em;
+}
+
+.bigText2 {
+  font-size: 3em;
+  padding-left: 2em;
 }
 
 #melin {
@@ -42,8 +57,152 @@
   margin: 25px 0;
 }
 
-#aboutMe {
-  margin-top: 20px;
+.intro {
+  /*background-color:rgba(78, 78, 78, .5);*/
+  padding-top: 10px;
+}
+
+.description {
+  font-size: 1.5em;
+  font-family: 'Josefin Slab', serif;
+}
+
+.sectionTitle {
+  font-family: 'Amatica SC', cursive;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.sectionDivider {
+  height: 1em;
+  transform: rotate(-3deg);
+  margin: 0 -10px;
+  background-color: #4e4e4e;
+}
+
+.sectionDividerCenter {
+  height: 1em;
+  transform: rotate(-3deg);
+  margin: 0 -10px;
+  background-color: #ededed;
+}
+
+/*Slanted Divider*/
+/*.divider {
+  color: #ededed;
+}
+
+.test {
+  background: #ededed;
+}
+.se-container{
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.se-slope{
+	margin: 0 -50px;
+	transform-origin: left center;
+}
+.se-slope:nth-child(odd){
+	background: #4e4e4e;
+	transform: rotate(5deg);
+	margin-top: -200px;
+	box-shadow: 0px -1px 3px rgba(78,78,78,0.4);
+}
+.se-slope:nth-child(even){
+	background: #4e4e4e;
+	transform: rotate(-3deg);
+	box-shadow: 0px 2px 3px rgba(78,78,78,0.4) inset;
+}
+
+
+.se-content{
+  text-align: center;
+	margin: 0 auto;
+}
+
+.se-content h3{
+	font-size: 40px;
+	position: relative;
+	display: inline-block;
+	padding: 10px 30px 8px 30px;
+	height: 80px;
+	line-height: 60px;
+	margin-bottom: 20px;
+	font-family: 'Bitter', 'Trebuchet MS', Arial;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+}
+.se-slope:nth-child(odd) .se-content h3{
+	background: #;
+	color: #000;
+}
+.se-slope:nth-child(even) .se-content h3{
+	background: #000;
+	color: #;
+}
+.se-content h3:before{
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-right: 60px solid black;
+	position: absolute;
+	left: -59px;
+	top: 0px;
+}
+.se-content h3:after{
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-left: 60px solid black;
+	position: absolute;
+	right: -59px;
+	top: 0px;
+}
+
+.se-slope:nth-child(odd) .se-content h3:before,
+.se-slope:nth-child(odd) .se-content h3:after{
+	border-right-color: #;
+	border-left-color: #;
+}
+
+.se-content p{
+	width: 75%;
+	max-width: 500px;
+	margin: 0 auto;
+	font-style: italic;
+	font-size: 18px;
+	line-height: 24px;
+	padding-top: 10px;
+}
+
+.se-content p:first-letter{
+	font-size: 40px;
+	font-family: 'Adobe Garamond Pro', Georgia, serif;
+}
+
+.se-slope:nth-child(odd) .se-content{
+	transform: rotate(-5deg);
+	color: #;
+	padding: 0;
+}
+.se-slope:nth-child(even) .se-content{
+	transform: rotate(5deg);
+	color: #000;
+	padding-bottom: 0;
+}*/
+/*End Slanted Divider*/
+
+.aboutMe {
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
 
 .glyphicon {
@@ -4385,6 +4544,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 .navbar-brand {
+  font-family: 'Josefin Sans', sans-serif;
   float: left;
   height: 50px;
   padding: 15px 15px;
@@ -5932,7 +6092,8 @@ button.list-group-item-danger.active:focus {
 .well {
   min-height: 20px;
   padding: 19px;
-  margin-bottom: 20px;
+  margin-top: 10%;
+  margin-bottom: 10%;
   background-color:rgba(78, 78, 78, .5);
   border: 1px solid #ededed;
   border-radius: 4px;
