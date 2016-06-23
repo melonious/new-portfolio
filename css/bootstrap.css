@@ -9,7 +9,7 @@
 }
 
 #welcomeText {
-  margin-top: 8%;
+  padding-top: 10%;
 }
 
 #melin {
@@ -21,10 +21,25 @@
   height: 100%;
   background-image: url("dark_trees.jpg");
   background-size: cover;
+  background-position: 0 top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
   color: #ededed;
+}
+
+.sectTwo {
+  height: 100%;
+  background-image: url("dark_trees_upsidedown.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  color: #ededed;
+}
+
+#intro {
+  margin: 25px 0;
 }
 
 #aboutMe {
@@ -103,7 +118,7 @@ html {
 }
 body {
   margin: 0;
-  padding-top: 40px;
+  /*padding-top: 40px;*/
 }
 article,
 aside,
@@ -4591,11 +4606,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: rgb(13, 13, 13);
-  border-color: rgb(78, 78, 78);
+  background-color: rgba(78, 78, 78, .8);
+  /*border-color: rgba(58, 58, 58, 1);*/
 }
 .navbar-default .navbar-brand {
-  color: #777;
+  color: #ededed;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -5918,11 +5933,11 @@ button.list-group-item-danger.active:focus {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: ##4e4e4e;
-  border: 1px solid #e3e3e3;
+  background-color:rgba(78, 78, 78, .5);
+  border: 1px solid #ededed;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0,0,0, .05);
 }
 .well blockquote {
   border-color: #ddd;
