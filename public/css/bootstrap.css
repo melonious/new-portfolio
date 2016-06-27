@@ -162,6 +162,30 @@ p, div {
   border: 15px solid;
   border-color: transparent #ededed #ededed transparent;
 }
+
+@media only screen and (max-width: 990px) {
+  .speech:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 100%;
+    left: 15%;
+    border: 25px solid;
+    border-color: transparent #4e4e4e #4e4e4e transparent;
+  }
+
+  .speech:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 99%;
+    left: 17%;
+    border: 15px solid;
+    border-color: transparent #ededed #ededed transparent;
+  }
+}
 /*End Speech Bubble*/
 
 .carouselImg {
