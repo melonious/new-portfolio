@@ -188,6 +188,21 @@ p, div {
 .footer {
   background-color: rgba(78, 78, 78, .8);
   color: #ededed;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.contact{
+  list-style: none;
+}
+
+.contact li {
+  display: inline;
+  color: #ededed;
+}
+
+.footIcon a {
+  color: #ededed;
 }
 
 /*End My Styling*/
