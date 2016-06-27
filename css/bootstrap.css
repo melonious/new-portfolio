@@ -6040,7 +6040,7 @@ button.list-group-item-danger.active:focus {
   padding: 19px;
   margin-top: 10%;
   margin-bottom: 10%;
-  background-color:rgba(78, 78, 78, .5);
+  background-color:rgba(78, 78, 78, .7);
   border: 1px solid #ededed;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
