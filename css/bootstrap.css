@@ -30,6 +30,7 @@ p, div {
 #melin {
   width: 250px;
   height: 229px;
+  box-shadow: 1px 1px 1px 1px;
 }
 
 .sect {
@@ -40,6 +41,7 @@ p, div {
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
+  padding-bottom: 10%;
   color: #ededed;
 }
 
@@ -87,119 +89,6 @@ p, div {
   background-color: #ededed;
 }
 
-/*Slanted Divider*/
-/*.divider {
-  color: #ededed;
-}
-
-.test {
-  background: #ededed;
-}
-.se-container{
-	display: block;
-	width: 100%;
-	overflow: hidden;
-	padding-top: 200px;
-  padding-bottom: 100px;
-}
-
-.se-slope{
-	margin: 0 -50px;
-	transform-origin: left center;
-}
-.se-slope:nth-child(odd){
-	background: #4e4e4e;
-	transform: rotate(5deg);
-	margin-top: -200px;
-	box-shadow: 0px -1px 3px rgba(78,78,78,0.4);
-}
-.se-slope:nth-child(even){
-	background: #4e4e4e;
-	transform: rotate(-3deg);
-	box-shadow: 0px 2px 3px rgba(78,78,78,0.4) inset;
-}
-
-
-.se-content{
-  text-align: center;
-	margin: 0 auto;
-}
-
-.se-content h3{
-	font-size: 40px;
-	position: relative;
-	display: inline-block;
-	padding: 10px 30px 8px 30px;
-	height: 80px;
-	line-height: 60px;
-	margin-bottom: 20px;
-	font-family: 'Bitter', 'Trebuchet MS', Arial;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
-}
-.se-slope:nth-child(odd) .se-content h3{
-	background: #;
-	color: #000;
-}
-.se-slope:nth-child(even) .se-content h3{
-	background: #000;
-	color: #;
-}
-.se-content h3:before{
-	content: '';
-	width: 0;
-	height: 0;
-	border-top: 30px solid transparent;
-	border-bottom: 50px solid transparent;
-	border-right: 60px solid black;
-	position: absolute;
-	left: -59px;
-	top: 0px;
-}
-.se-content h3:after{
-	content: '';
-	width: 0;
-	height: 0;
-	border-top: 30px solid transparent;
-	border-bottom: 50px solid transparent;
-	border-left: 60px solid black;
-	position: absolute;
-	right: -59px;
-	top: 0px;
-}
-
-.se-slope:nth-child(odd) .se-content h3:before,
-.se-slope:nth-child(odd) .se-content h3:after{
-	border-right-color: #;
-	border-left-color: #;
-}
-
-.se-content p{
-	width: 75%;
-	max-width: 500px;
-	margin: 0 auto;
-	font-style: italic;
-	font-size: 18px;
-	line-height: 24px;
-	padding-top: 10px;
-}
-
-.se-content p:first-letter{
-	font-size: 40px;
-	font-family: 'Adobe Garamond Pro', Georgia, serif;
-}
-
-.se-slope:nth-child(odd) .se-content{
-	transform: rotate(-5deg);
-	color: #;
-	padding: 0;
-}
-.se-slope:nth-child(even) .se-content{
-	transform: rotate(5deg);
-	color: #000;
-	padding-bottom: 0;
-}*/
-/*End Slanted Divider*/
-
 .aboutMe {
   margin-top: 15%;
   margin-bottom: 15%;
@@ -209,21 +98,15 @@ p, div {
   font-size: 50px;
 }
 
-.subSection {
-  /*height: 100%;
-  background-image: url("japan.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: 0;
-  color: #ededed;*/
-}
-
 #help {
   color: #4e4e4e;
   background-color: #ededed;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.project {
+  font-size: 5em;
 }
 
 #projects {
@@ -238,14 +121,19 @@ p, div {
   height: 100px;
   text-align: center;
   line-height: 80px;
-  background-color: #fff;
-  border: 8px solid #666;
+  background-color: #ededed;
+  border: 8px solid #4e4e4e;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
   -webkit-box-shadow: 2px 2px 4px #888;
   -moz-box-shadow: 2px 2px 4px #888;
   box-shadow: 2px 2px 4px #888;
+}
+
+.speech:first-letter {
+  font-size: 1.5em;
+  font-family: 'Josefin Slab', serif;
 }
 
 .speech:before {
@@ -256,7 +144,7 @@ p, div {
   right: 100%;
   bottom: 15%;
   border: 25px solid;
-  border-color: transparent #666 #666 transparent;
+  border-color: transparent #4e4e4e #4e4e4e transparent;
 }
 
 .speech:after {
@@ -267,8 +155,9 @@ p, div {
   right: 100%;
   bottom: 25%;
   border: 15px solid;
-  border-color: transparent #fff #fff transparent;
+  border-color: transparent #ededed #ededed transparent;
 }
+/*End Speech Bubble*/
 
 html {
   font-family: sans-serif;
