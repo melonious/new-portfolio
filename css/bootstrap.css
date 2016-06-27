@@ -88,6 +88,10 @@ p, div {
   background-color: #4e4e4e;
 }
 
+.sectionDivider:hover {
+  background-color: #a48ea4;
+}
+
 .sectionDividerCenter {
   height: 1em;
   transform: rotate(-3deg);
@@ -183,6 +187,10 @@ p, div {
 
 .thumbnail img {
   width: 70%;
+}
+
+.faHover:hover {
+  color: #ededed;
 }
 
 .footer {
