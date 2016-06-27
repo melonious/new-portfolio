@@ -105,15 +105,6 @@ p, div {
   margin-bottom: 25px;
 }
 
-.project {
-  font-size: 5em;
-}
-
-#projects {
-  background-color: #ededed;
-  color: #4e4e4e;
-}
-
 /*Speech Bubble*/
 .speech {
   position: relative;
@@ -158,6 +149,29 @@ p, div {
   border-color: transparent #ededed #ededed transparent;
 }
 /*End Speech Bubble*/
+
+.carouselImg {
+  width: 100%;
+}
+
+#carousel {
+  margin-bottom: 25px;
+}
+
+.project {
+  font-size: 5em;
+}
+
+#projects {
+  background-color: #ededed;
+  color: #4e4e4e;
+}
+
+#projectHeader {
+  margin-bottom: 20px;
+}
+
+/*End My Styling*/
 
 html {
   font-family: sans-serif;
@@ -6399,6 +6413,7 @@ button.close {
 }
 .carousel {
   position: relative;
+  margin: 0 10%;
 }
 .carousel-inner {
   position: relative;
